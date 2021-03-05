@@ -1,0 +1,89 @@
+
+{% extends 'event/base_about.html' %}
+{% load static %}
+{% block title %} | About
+{% endblock title %} | About
+{% block content %}
+<section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+    <h1>ABOUT <span>Abhisaran</span></h1>
+    <span class="title-bg">BSSS</span>
+</section>
+<!-- Page Title Ends -->
+<!-- Main Content Starts -->
+<section class="main-content revealator-slideup revealator-once revealator-delay1">
+    <div class="container">
+        <div class="row">
+            <!-- Personal Info Starts -->
+            <div class="col-12 col-lg-5 col-xl-6">
+                <div class="row">
+                    <div class="col-12" style="font-family: 'Quicksand', sans-serif;">
+                        <p>“The role of culture is that it’s the form through which we as a society reflect on who we are, where we’ve been, where we hope to be.”<br> – Wendell Pierce<br>
+
+                            Abhisaran is a three-day international cultural fest brought to you by the Bhopal School of Social Sciences with an aim to bridge the gaps between different cultures of the world. This fest will be one of a kind with unique amalgamations of events blended together, which will give you a platform to showcase your skills and put your best foot forward. 
+                            
+                            This student organized Cultural fest will be held in the second week of April 2021. It will comprise of events like Panel discussions,  Interactive Sessions, Networking, and Much More</p>
+                    </div>
+                    
+                    <div class="col-12 mt-3">
+                        <a href="{% static 'Profile.pdf' %}" download = "Manan's Profile"  class="btn btn-download"> Download Brochure</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Personal Info Ends -->
+            <!-- Boxes Starts -->
+            <div class="col-12 col-lg-7 col-xl-6 mt-5 mt-lg-0">
+                <div class="row">
+                    
+                    <div class="col-6">
+                        <div class="box-stats">
+                            <h3 class="poppins-font position-relative">25</h3>
+                            <p class="open-sans-font m-0 position-relative text-uppercase">Events</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="box-stats">
+                            <h3 class="poppins-font position-relative">5K</h3>
+                            <p class="open-sans-font m-0 position-relative text-uppercase">Audience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Boxes Ends -->
+        </div>
+        <hr class="separator">
+        
+        <!-- Event timeline -->
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600" style="font-family: 'Slabo 27px', serif;">Event Timeline</h3>
+            </div>
+            <div class="col-lg-6 m-15px-tb">
+                <div class="resume-box">
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-calendar"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">8th April 2021 <span class="place open-sans-font">Thursday</span> </span>
+                            <h5 style="font-family: 'Cookie', cursive;font-size: 2em;">Formal Day</h5>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-calendar"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">9th April 2021 <span class="place open-sans-font">Friday</span> </span>
+                            <h5 style="font-family: 'Cookie', cursive;font-size: 2em;">Traditional Day</h5>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-calendar"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">10th April 2021 <span class="place open-sans-font">Saturday</span> </span>
+                            <h5 style="font-family: 'Cookie', cursive;font-size: 2em;">Casual Day</h5>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+</section>
+{% endblock content %}

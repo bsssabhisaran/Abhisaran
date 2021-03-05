@@ -1,0 +1,75 @@
+{% extends 'event/base_contact.html' %}
+
+{% block title %} | Contact Us
+{% endblock title %}
+{% block content %}
+
+<section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+    <h1>get in <span>touch</span></h1>
+    <span class="title-bg">contact</span>
+</section>
+<!-- Page Title Ends -->
+<!-- Main Content Starts -->
+<section class="main-content revealator-slideup revealator-once revealator-delay1">
+    <div class="container">
+        <div class="row">
+            <!-- Left Side Starts -->
+            <div class="col-12 col-lg-4">
+                <h3 class="text-uppercase custom-title mb-0 ft-wt-600 pb-3">Don't be shy ! - {{ name }}</h3>
+                <p class="open-sans-font mb-3">Feel free to get in touch with us. We are always open to discussing creative ideas or opportunities. </p>
+                <p class="open-sans-font custom-span-contact position-relative">
+                    <i class="fa fa-envelope-open position-absolute"></i>
+                    <span class="d-block">mail us</span>abhisaran@bsssbhopal.edu.in
+                </p>
+                <p class="open-sans-font custom-span-contact position-relative">
+                    <i class="fa fa-phone-square position-absolute"></i>
+                    <span class="d-block">call us</span>+917999377880
+                    <span class="d-block">Alternate Contact</span>+918982408119
+                </p>
+                <ul class="social list-unstyled pt-1 mb-5">
+                    <li class="instagram"><a title="instagram" href="https://www.instagram.com/bsss_abhisaran/" target="blank"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li class="twitter"><a title="Twitter" href="https://twitter.com/Bsss_Abhisaran" target="blank"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="facebook"><a title="facebook" href="https://www.facebook.com/bsss.abhisaran" target="blank"><i class="fa fa-facebook"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-8">
+                {% if message_name %}
+                        <div class="alert alert-success" role="alert">
+                            <h2>Thanks {{ message_name }}!</h2>
+                            <p>We recieved your email and will reach out to you as soon as possible.</p>
+                        </div>
+                {% else %}
+                                 
+                <form class="contactform" method="POST" action = "{% url 'contact' %}">
+                    {% csrf_token %}
+                    <div class="contactform">
+                        <div class="row">
+                            
+                            <div class="col-12 col-md-4">
+                                <input type="text" name="name" placeholder="YOUR NAME">
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <input type="email" name="email" placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <input type="text" name="subject" placeholder="YOUR SUBJECT">
+                            </div>
+                            <div class="col-12">
+                                 <textarea name="message" placeholder="YOUR MESSAGE"></textarea>
+                                     
+                                <button type="submit" class="btn btn-contact" action = "{% url 'contact' %}">Send Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                {% endif %}
+                                
+            </div>
+        </div>
+    </div>
+
+</section>
+{% endblock content %}

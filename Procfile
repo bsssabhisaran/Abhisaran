@@ -1,0 +1,1 @@
+web: gunicorn abhisaran.wsgi --log-file -
