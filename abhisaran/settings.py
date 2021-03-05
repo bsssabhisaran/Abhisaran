@@ -25,7 +25,7 @@ SECRET_KEY = 'hwguz0=v87#d@sj98y!f=yf=b8e#5=j538#9a0o@l0d7=e2mbj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['desolate-dusk-54392.herokuapp.com','abhisaran.co.in']
 
 
 # Application definition
