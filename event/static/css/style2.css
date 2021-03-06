@@ -1809,6 +1809,12 @@ html {
   src: local('Pristina'), url('PRISTINA.woff') format('woff');
 }
 
+@font-face {
+	font-family: 'PRISTINA';
+	src: url('./PRISTINA.eot');
+	src: local('PRISTINA'), url('./PRISTINA.woff') format('woff'), url('./PRISTINA.ttf') format('truetype');
+}
+
 @media(max-width: 1000px){
   .abhisaran-logo{
     position: absolute;
