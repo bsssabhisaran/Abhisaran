@@ -1779,15 +1779,119 @@ html {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   font-family: 'Samarkan', sans-serif;
-  font-size: 6.5em; 
+  font-size: 7em; 
+}
+.abhisaran-logo{
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  width: 400px;
+}
+
+.cultural-text{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Samarkan', sans-serif;
+  font-size: 3.5em;  
 }
 @font-face {
   font-family: "Samarkan"; 
   src: url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.eot"); 
   src: url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.woff") format("woff"), url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.svg#Samarkan") format("svg"); 
 }
+@font-face {
+  font-family: 'Pristina';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Pristina'), url('PRISTINA.woff') format('woff');
+}
 
-@media(max-width: 450px)
+@media(max-width: 1000px){
+  .abhisaran-logo{
+    position: absolute;
+    left: 40%;
+    top: 4%;
+    width: 20%;
+  }
+}
+@media(max-width: 800px){
+  .abhisaran-logo{
+    position: absolute;
+    left: 37%;
+    top: 4%;
+    width: 20%;
+  }
+}
+@media(max-width: 600px){
+  .abhisaran-logo{
+    position: absolute;
+    left: 33%;
+    top: 10%;
+  }
+  .abhisaran-logo img{
+    width: 200px;
+  }
+}
+
+@media(max-width: 500px){
+  .abhisaran-logo{
+    position: absolute;
+    left: 33%;
+    top: 10%;
+  }
+  .abhisaran-logo img{
+    width: 175px;
+  }
+}
+
+@media(max-width: 450px){
+  .abhisaran-logo{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+  }
+  .abhisaran-logo img{
+    width: 175px;
+  }
+}
+
+@media(max-width: 380px){
+  .abhisaran-logo{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+  }
+  .abhisaran-logo img{
+    width: 160px;
+  }
+}
+
+@media(max-width: 350px){
+  .abhisaran-logo{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+  }
+  .abhisaran-logo img{
+    width: 140px;
+  }
+}
+
+@media(max-width: 300px){
+  .abhisaran-logo{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+  }
+  .abhisaran-logo img{
+    width: 120px;
+  }
+}
+
+@media(max-width: 500px)
 {
   .Abhisaran{
     padding: 0;
@@ -1805,4 +1909,71 @@ html {
 
     font-size: 5em; 
   }
+  .cultural-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Samarkan', sans-serif;
+    font-size: 2.85em;  
   }
+  }
+
+
+  @media(max-width: 350px)
+  {
+    .Abhisaran{
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+    .abhisaran-text{
+      margin: 0;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      font-size: 4.5em; 
+    }
+    .cultural-text{
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Samarkan', sans-serif;
+      font-size: 2.65em;  
+    }
+    }
+
+    @media(max-width: 310px)
+    {
+      .Abhisaran{
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+      .abhisaran-text{
+        margin: 0;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        font-size: 4em; 
+      }
+      .cultural-text{
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Samarkan', sans-serif;
+        font-size: 2em;  
+      }
+      }
+  
