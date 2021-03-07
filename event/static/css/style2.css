@@ -1802,18 +1802,17 @@ html {
   src: url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.eot"); 
   src: url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.woff") format("woff"), url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.svg#Samarkan") format("svg"); 
 }
-@font-face {
-  font-family: 'Pristina';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Pristina'), url('PRISTINA.woff') format('woff');
-}
 
 @font-face {
 	font-family: 'PRISTINA';
 	src: url('./PRISTINA.eot');
 	src: local('PRISTINA'), url('./PRISTINA.woff') format('woff'), url('./PRISTINA.ttf') format('truetype');
 }
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_17281">Text with this font applied</p> */
+.fontsforweb_fontid_17281 {
+	font-family: 'PRISTINA' !important;
+}
+
 
 @media(max-width: 1000px){
   .abhisaran-logo{
