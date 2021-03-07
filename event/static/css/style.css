@@ -1754,3 +1754,9 @@ body.light hr.separator {
     margin-top: 35px !important;
   }
 }
+
+@font-face {
+	font-family: 'PRISTINA';
+	src: url('./PRISTINA.eot');
+	src: local('PRISTINA'), url('./PRISTINA.woff') format('woff'), url('./PRISTINA.ttf') format('truetype');
+}
