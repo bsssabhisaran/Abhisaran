@@ -1031,7 +1031,6 @@ body.light hr.separator {
 .contact .contactform input[type=email] {
   border: 1px solid #111;
   width: 100%;
-  background: #252525;
   color: #fff;
   padding: 11px 26px;
   margin-bottom: 30px;
@@ -1042,7 +1041,6 @@ body.light hr.separator {
 
 .contact .contactform textarea {
   border: 1px solid #111;
-  background: #252525;
   color: #fff;
   width: 100%;
   padding: 12px 26px;
