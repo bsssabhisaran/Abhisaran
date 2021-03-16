@@ -1818,7 +1818,7 @@ html {
   .abhisaran-logo{
     position: absolute;
     left: 40%;
-    top: 4%;
+    top: 12%;
     width: 20%;
   }
 }
@@ -1834,7 +1834,7 @@ html {
   .abhisaran-logo{
     position: absolute;
     left: 33%;
-    top: 10%;
+    top: 17%;
   }
   .abhisaran-logo img{
     width: 200px;
@@ -1845,7 +1845,7 @@ html {
   .abhisaran-logo{
     position: absolute;
     left: 33%;
-    top: 10%;
+    top: 20%;
   }
   .abhisaran-logo img{
     width: 175px;
@@ -1856,7 +1856,7 @@ html {
   .abhisaran-logo{
     position: absolute;
     left: 30%;
-    top: 10%;
+    top: 20%;
   }
   .abhisaran-logo img{
     width: 175px;
@@ -1867,7 +1867,7 @@ html {
   .abhisaran-logo{
     position: absolute;
     left: 30%;
-    top: 10%;
+    top: 22%;
   }
   .abhisaran-logo img{
     width: 160px;
@@ -1878,7 +1878,7 @@ html {
   .abhisaran-logo{
     position: absolute;
     left: 30%;
-    top: 10%;
+    top: 22%;
   }
   .abhisaran-logo img{
     width: 140px;
@@ -1889,7 +1889,7 @@ html {
   .abhisaran-logo{
     position: absolute;
     left: 30%;
-    top: 10%;
+    top: 24%;
   }
   .abhisaran-logo img{
     width: 120px;
@@ -1907,7 +1907,7 @@ html {
   .abhisaran-text{
     margin: 0;
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -1916,7 +1916,7 @@ html {
   }
   .cultural-text{
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -1937,7 +1937,7 @@ html {
     .abhisaran-text{
       margin: 0;
       position: absolute;
-      top: 45%;
+      top: 55%;
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
@@ -1945,7 +1945,7 @@ html {
     }
     .cultural-text{
       position: absolute;
-      top: 55%;
+      top: 65%;
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
@@ -1965,7 +1965,7 @@ html {
       .abhisaran-text{
         margin: 0;
         position: absolute;
-        top: 45%;
+        top: 55%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
@@ -1973,7 +1973,7 @@ html {
       }
       .cultural-text{
         position: absolute;
-        top: 55%;
+        top: 65%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
