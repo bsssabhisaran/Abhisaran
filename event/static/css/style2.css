@@ -1861,101 +1861,6 @@ html {
   }
 }
 
-@media(max-width: 500px){
-  .abhisaran-logo{
-    position: absolute;
-    left: 35%;
-    top: 13%;
-  }
-  .abhisaran-logo img{
-    width: 170px;
-  }
-  .about-button{
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    display: block;
-    font-size: .85em;
-  }
-  .digital-text{
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.75em;  
-  }
-  .abhisaran-text{
-    margin: 0;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-
-    font-size: 3.75em; 
-  }
-}
-
-@media(max-width: 450px){
-  .abhisaran-logo{
-    position: absolute;
-    left: 32%;
-    top: 13%;
-  }
-  .abhisaran-logo img{
-    width: 170px;
-  }
-  .abhisaran-text{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-size: 4em; 
-  }
-  .cultural-text{
-    position: absolute;
-    top: 61%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Samarkan', sans-serif;
-    font-size: 2.75em;  
-  }
-}
-
-@media(max-width: 380px){
-  .abhisaran-logo{
-    position: absolute;
-    left: 30%;
-    top: 16%;
-  }
-  .abhisaran-logo img{
-    width: 155px;
-  }
-  .abhisaran-text{
-    margin: 0;
-    position: absolute;
-    top: 46%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-size: 4em; 
-  }
-  .cultural-text{
-    position: absolute;
-    top: 58%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Samarkan', sans-serif;
-    font-size: 2.75em;  
-  }
-}
 
 @media(max-width: 350px){
   .abhisaran-logo{
@@ -2094,3 +1999,99 @@ html {
       }
       }
   
+      
+@media(max-width: 500px){
+  .abhisaran-logo{
+    position: absolute;
+    left: 35%;
+    top: 13%;
+  }
+  .abhisaran-logo img{
+    width: 170px;
+  }
+  .about-button{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    font-size: .85em;
+  }
+  .digital-text{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.75em;  
+  }
+  .abhisaran-text{
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 3.75em; 
+  }
+}
+
+@media(max-width: 450px){
+  .abhisaran-logo{
+    position: absolute;
+    left: 31%;
+    top: 13%;
+  }
+  .abhisaran-logo img{
+    width: 170px;
+  }
+  .abhisaran-text{
+    margin: 0;
+    position: absolute;
+    top: 50% !important;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em; 
+  }
+  .cultural-text{
+    position: absolute;
+    top: 61% !important;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Samarkan', sans-serif;
+    font-size: 2.75em;  
+  }
+}
+
+@media(max-width: 380px){
+  .abhisaran-logo{
+    position: absolute;
+    left: 30%;
+    top: 16%;
+  }
+  .abhisaran-logo img{
+    width: 155px;
+  }
+  .abhisaran-text{
+    margin: 0;
+    position: absolute;
+    top: 48%  !important;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.75em; 
+  }
+  .cultural-text{
+    position: absolute;
+    top: 58% !important;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Samarkan', sans-serif;
+    font-size: 2.65em;  
+  }
+}
