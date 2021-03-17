@@ -1797,6 +1797,26 @@ html {
   font-family: 'Samarkan', sans-serif;
   font-size: 3.5em;  
 }
+
+.digital-text{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;  
+}
+
+.about-button{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+
 @font-face {
   font-family: "Samarkan"; 
   src: url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.eot"); 
@@ -1833,33 +1853,78 @@ html {
 @media(max-width: 600px){
   .abhisaran-logo{
     position: absolute;
-    left: 33%;
-    top: 17%;
+    left: 35%;
+    top: 15%;
   }
   .abhisaran-logo img{
-    width: 200px;
+    width: 170px;
   }
 }
 
 @media(max-width: 500px){
   .abhisaran-logo{
     position: absolute;
-    left: 33%;
-    top: 20%;
+    left: 35%;
+    top: 13%;
   }
   .abhisaran-logo img{
-    width: 175px;
+    width: 170px;
+  }
+  .about-button{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    font-size: .85em;
+  }
+  .digital-text{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.75em;  
+  }
+  .abhisaran-text{
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 3.75em; 
   }
 }
 
 @media(max-width: 450px){
   .abhisaran-logo{
     position: absolute;
-    left: 30%;
-    top: 20%;
+    left: 32%;
+    top: 13%;
   }
   .abhisaran-logo img{
-    width: 175px;
+    width: 170px;
+  }
+  .abhisaran-text{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em; 
+  }
+  .cultural-text{
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Samarkan', sans-serif;
+    font-size: 2.75em;  
   }
 }
 
@@ -1867,10 +1932,28 @@ html {
   .abhisaran-logo{
     position: absolute;
     left: 30%;
-    top: 22%;
+    top: 16%;
   }
   .abhisaran-logo img{
-    width: 160px;
+    width: 155px;
+  }
+  .abhisaran-text{
+    margin: 0;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em; 
+  }
+  .cultural-text{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Samarkan', sans-serif;
+    font-size: 2.75em;  
   }
 }
 
@@ -1878,25 +1961,26 @@ html {
   .abhisaran-logo{
     position: absolute;
     left: 30%;
-    top: 22%;
+    top: 18%;
   }
   .abhisaran-logo img{
     width: 140px;
   }
+  
 }
 
 @media(max-width: 300px){
   .abhisaran-logo{
     position: absolute;
-    left: 30%;
-    top: 24%;
+    left: 31%;
+    top: 20%;
   }
   .abhisaran-logo img{
     width: 120px;
   }
 }
 
-@media(max-width: 500px)
+@media(max-width: 600px)
 {
   .Abhisaran{
     padding: 0;
@@ -1925,6 +2009,34 @@ html {
   }
   }
 
+@media(max-width: 500px)
+{
+  .Abhisaran{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .abhisaran-text{
+    margin: 0;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 4.5em; 
+  }
+  .cultural-text{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Samarkan', sans-serif;
+    font-size: 2.85em;  
+  }
+  }
+
 
   @media(max-width: 350px)
   {
@@ -1937,20 +2049,20 @@ html {
     .abhisaran-text{
       margin: 0;
       position: absolute;
-      top: 55%;
+      top: 52%;
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
-      font-size: 4.5em; 
+      font-size: 4em; 
     }
     .cultural-text{
       position: absolute;
-      top: 65%;
+      top: 62%;
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
       font-family: 'Samarkan', sans-serif;
-      font-size: 2.65em;  
+      font-size: 2.55em;  
     }
     }
 
@@ -1965,7 +2077,7 @@ html {
       .abhisaran-text{
         margin: 0;
         position: absolute;
-        top: 55%;
+        top: 52%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
@@ -1973,7 +2085,7 @@ html {
       }
       .cultural-text{
         position: absolute;
-        top: 65%;
+        top: 62%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
