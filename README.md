@@ -2,7 +2,8 @@
 This is the official site of Abhisaran (BSSS Bhopal). Abhisaran is the cultural fest of BSSS Bhopal. The website was to let people know about the fest, and various events in the fest. 
 
 ### Description :
-The backend of the website was made using djnago , and the frontend was made using HTML , CSS, and Javascript. The website was divided into various pages :
+The website was divided into various pages :
+
 - **Home Page :**  It is the main page of website.
 
 ![Alt text]( ./pictures/main.png "Main page of website")
@@ -28,7 +29,7 @@ The complete website was responsive for all devices.
 
 ### Tech stack / Framework used : 
 The backend of the webapp is made using Django Framework. For styling and ehancing the look Bootstrap , CSS and Javascript is used.
-
+**Deployment :** The website was hosted and deployed on herouku, along with it a custom domain was used to point to the website.
 
 ### Contributor :
 
