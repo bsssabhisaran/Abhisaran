@@ -28,7 +28,7 @@ The website was divided into various pages :
 The complete website was responsive for all devices.
 
 ### Tech stack / Framework used : 
-The backend of the webapp is made using Django Framework. For styling and ehancing the look Bootstrap , CSS and Javascript is used.
+The backend of the webapp is made using Django Framework. For styling and ehancing the look Bootstrap , CSS and Javascript is used. \
 **Deployment :** The website was hosted and deployed on herouku, along with it a custom domain was used to point to the website.
 
 ### Contributor :
