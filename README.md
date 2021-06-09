@@ -47,7 +47,7 @@ The backend of the webapp is made using Django Framework. For styling and ehanci
         <a href="https://github.com/bsssabhisaran">
             <img src="https://avatars.githubusercontent.com/u/80115195?v=4" width="100;" alt="bsssabhisaran"/>
             <br />
-            <sub><b>bsssabhisaran</b></sub>
+            <sub><b>Bsssabhisaran</b></sub>
         </a>
     </td></tr>
 </table>
